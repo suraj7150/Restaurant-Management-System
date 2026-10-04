@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "Paneer",
+        "category": "Dairy",
+        "unit": "kg"
+    },
+    {
+        "id": 2,
+        "name": "Milk",
+        "category": "Dairy",
+        "unit": "litre"
+    },
+    {
+        "id": 3,
+        "name": "Curd",
+        "category": "Dairy",
+        "unit": "kg"
+    },
+    {
+        "id": 4,
+        "name": "Butter",
+        "category": "Dairy",
+        "unit": "kg"
+    },
+    {
+        "id": 5,
+        "name": "Cheese",
+        "category": "Dairy",
+        "unit": "kg"
+    },
+    {
+        "id": 6,
+        "name": "Cream",
+        "category": "Dairy",
+        "unit": "litre"
+    },
+    {
+        "id": 7,
+        "name": "Tomato",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 8,
+        "name": "Potato",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 9,
+        "name": "Onion",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 10,
+        "name": "Capsicum",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 11,
+        "name": "Carrot",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 12,
+        "name": "Cabbage",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 13,
+        "name": "Cauliflower",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 14,
+        "name": "Spinach",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 15,
+        "name": "Green Peas",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 16,
+        "name": "Basmati Rice",
+        "category": "Grain",
+        "unit": "kg"
+    },
+    {
+        "id": 17,
+        "name": "Wheat Flour",
+        "category": "Grain",
+        "unit": "kg"
+    },
+    {
+        "id": 18,
+        "name": "Corn Flour",
+        "category": "Grain",
+        "unit": "kg"
+    },
+    {
+        "id": 19,
+        "name": "Maida",
+        "category": "Grain",
+        "unit": "kg"
+    },
+    {
+        "id": 20,
+        "name": "Bread",
+        "category": "Bakery",
+        "unit": "packet"
+    },
+    {
+        "id": 21,
+        "name": "Cooking Oil",
+        "category": "Oil",
+        "unit": "litre"
+    },
+    {
+        "id": 22,
+        "name": "Olive Oil",
+        "category": "Oil",
+        "unit": "litre"
+    },
+    {
+        "id": 23,
+        "name": "Mustard Oil",
+        "category": "Oil",
+        "unit": "litre"
+    },
+    {
+        "id": 24,
+        "name": "Salt",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 25,
+        "name": "Red Chilli Powder",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 26,
+        "name": "Turmeric Powder",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 27,
+        "name": "Garam Masala",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 28,
+        "name": "Coriander Powder",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 29,
+        "name": "Cumin Seeds",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 30,
+        "name": "Black Pepper",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 31,
+        "name": "Ginger",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 32,
+        "name": "Garlic",
+        "category": "Spices",
+        "unit": "kg"
+    },
+    {
+        "id": 33,
+        "name": "Green Chilli",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 34,
+        "name": "Tomato Sauce",
+        "category": "Sauce",
+        "unit": "bottle"
+    },
+    {
+        "id": 35,
+        "name": "Chilli Sauce",
+        "category": "Sauce",
+        "unit": "bottle"
+    },
+    {
+        "id": 36,
+        "name": "Soy Sauce",
+        "category": "Sauce",
+        "unit": "bottle"
+    },
+    {
+        "id": 37,
+        "name": "Mayonnaise",
+        "category": "Sauce",
+        "unit": "kg"
+    },
+    {
+        "id": 38,
+        "name": "Vinegar",
+        "category": "Sauce",
+        "unit": "bottle"
+    },
+    {
+        "id": 39,
+        "name": "Sugar",
+        "category": "Sweetener",
+        "unit": "kg"
+    },
+    {
+        "id": 40,
+        "name": "Honey",
+        "category": "Sweetener",
+        "unit": "kg"
+    },
+    {
+        "id": 41,
+        "name": "Tea",
+        "category": "Beverage",
+        "unit": "kg"
+    },
+    {
+        "id": 42,
+        "name": "Coffee",
+        "category": "Beverage",
+        "unit": "kg"
+    },
+    {
+        "id": 43,
+        "name": "Cocoa Powder",
+        "category": "Beverage",
+        "unit": "kg"
+    },
+    {
+        "id": 44,
+        "name": "Chicken",
+        "category": "Meat",
+        "unit": "kg"
+    },
+    {
+        "id": 45,
+        "name": "Mutton",
+        "category": "Meat",
+        "unit": "kg"
+    },
+    {
+        "id": 46,
+        "name": "Fish",
+        "category": "Seafood",
+        "unit": "kg"
+    },
+    {
+        "id": 47,
+        "name": "Eggs",
+        "category": "Poultry",
+        "unit": "dozen"
+    },
+    {
+        "id": 48,
+        "name": "Mushroom",
+        "category": "Vegetable",
+        "unit": "kg"
+    },
+    {
+        "id": 49,
+        "name": "Coconut",
+        "category": "Other",
+        "unit": "piece"
+    },
+    {
+        "id": 50,
+        "name": "Lemon",
+        "category": "Fruit",
+        "unit": "kg"
+    }
+]

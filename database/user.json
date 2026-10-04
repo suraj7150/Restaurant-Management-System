@@ -1,0 +1,36 @@
+{
+    "admin": {
+        "email": "suraj@gmail.com",
+        "password": "Suraj@123"
+    },
+    "staff": [
+        {
+            "id": 1,
+            "name": "sharwan",
+            "email": "sharwan@gmail.com",
+            "password": "Sharwan@123",
+            "phone": "9876543210"
+        },
+        {
+            "id": 2,
+            "name": "prahlad",
+            "email": "prahlad@gmail.com",
+            "password": "Prahlad@123",
+            "phone": "8765432109"
+        },
+        {
+            "id": 4,
+            "name": "Rakhi Bai",
+            "email": "rakhi@gamil.com",
+            "password": "Rakhi@123",
+            "phone": "9377394448"
+        },
+        {
+            "id": 5,
+            "name": "bharat",
+            "email": "bharat@gmail.com",
+            "password": "BH#raT1020",
+            "phone": "8769650042"
+        }
+    ]
+}
