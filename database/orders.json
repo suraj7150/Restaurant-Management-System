@@ -1,0 +1,30 @@
+[
+    {
+        "order_id": 1,
+        "table_id": 9,
+        "order_time": "2026-10-05 18:30:00",
+        "items": [
+            {
+                "item_id": 1,
+                "quantity": 2
+            },
+            {
+                "item_id": 5,
+                "quantity": 1
+            }
+        ],
+        "status": "Pending"
+    },
+    {
+        "order_id": 2,
+        "table_id": 1,
+        "order_time": "2026-10-06 23:10:09",
+        "items": [
+            {
+                "item_id": 6,
+                "quantity": 2
+            }
+        ],
+        "status": "Pending"
+    }
+]

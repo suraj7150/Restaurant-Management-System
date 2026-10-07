@@ -63,10 +63,10 @@ class UpdateItem:
             while True:
 
                 print("\n\t" + "‗" * 50)
-                print("\n\t\t 1  ->   Update Name")
-                print("\t\t 2  ->   Update Category")
-                print("\t\t 3  ->   Update Price")
-                print("\t\t 4  ->   Back")
+                print("\n\t\t 1  →   Update Name")
+                print("\t\t 2  →   Update Category")
+                print("\t\t 3  →   Update Price")
+                print("\t\t 4  →   Back")
                 print("\t" + "‗" * 50)
 
                 option = input("select your choice(1-3) :")

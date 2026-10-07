@@ -13,10 +13,10 @@ class StaffManagement:
                 print("\n\t" + "‗" * 50)
                 print("\n\t\t  Staff Management")
                 print("\t" + "‗" * 50)
-                print("\n\t\t 1  ->   Add Staff")
-                print("\t\t 2  ->   Delete Staff")
-                print("\t\t 3  ->   View Staff")
-                print("\t\t 4  ->   Back")
+                print("\n\t\t 1  →   Add Staff")
+                print("\t\t 2  →   Delete Staff")
+                print("\t\t 3  →   View Staff")
+                print("\t\t 4  →   Back")
 
                 print("\t" + "‗" * 50)
 

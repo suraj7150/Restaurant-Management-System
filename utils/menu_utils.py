@@ -1,3 +1,4 @@
+from utils import file_handling
 from validation import item_validation
 
 def get_name():
@@ -30,3 +31,19 @@ def get_price():
         else:
             print("\t Invalid Item price ...")
 
+
+def find_item_by_id(item_id):
+
+    data = file_handling.read_data(
+        "database/menu.json"
+    )
+
+    if not data:
+        return None
+
+    for item in data:
+
+        if item["id"] == item_id:
+            return item
+
+    return None

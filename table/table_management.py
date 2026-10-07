@@ -15,10 +15,10 @@ class TableManagement:
             print("\n\t" + "‗" * 50)
             print("\n\t\t  TABLE Management")
             print("\t" + "‗" * 50)
-            print("\n\t\t 1  ->   Add Table")
-            print("\t\t 2  ->   View Table")
-            print("\t\t 3  ->   Delete Table")
-            print("\t\t 4  ->   Back")
+            print("\n\t\t 1  →   Add Table")
+            print("\t\t 2  →   View Table")
+            print("\t\t 3  →   Delete Table")
+            print("\t\t 4  →   Back")
 
             print("\t" + "‗" * 50)
 

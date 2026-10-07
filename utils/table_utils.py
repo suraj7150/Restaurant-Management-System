@@ -88,7 +88,7 @@ def get_multiple_tables(customer_count):
 
     return selected_tables
 
-def booking_object(self,booking_id, customer_name,
+def booking_object(booking_id, customer_name,
     customer_email, customer_phone, customer_count,
     table_ids, booking_start, booking_duration, status
 ):
@@ -106,6 +106,52 @@ def booking_object(self,booking_id, customer_name,
     return book_table
 
 
+def booking_successful(booking_id, name, customer_count, 
+        table_ids, duration, datetime
+    ):
+    print("\n")
+    print("\t" + "‗" * 50)
+    print("\t        BOOKING SUCCESSFUL ")
+    print("\t" + "‗" * 50)
+    print(f"\t  Booking ID      → {booking_id}")
+    print(f"\t  Customer Name   → {name}")
+    print(f"\t  Customers       → {customer_count}")
+    print(f"\t  Table IDs       → {(str(table_ids))}")
+    print(f"\t  Duration        → {duration} hour(s)")
+    print(f"\t  Booking Status  → Active")
+    print(f"\t  Booking Time    → {datetime}")
+    print("\t" + "‗" * 50)
+    print("\t        Thank you ! ")
+    print("\t" + "‗" * 50)
 
-    
-    
+def find_table_by_id(table_id):
+
+    data = file_handling.read_data("database/tables.json")
+
+    if not data:
+        return None
+
+    for table in data:
+        if table["id"] == table_id:
+            return table
+
+    return None
+
+def get_active_booking_by_table(table_id):
+
+    data = file_handling.read_data(
+        "database/bookings.json"
+    )
+
+    if not data:
+        return None
+
+    for booking in data:
+
+        if booking["status"] == "Active":
+
+            if table_id in booking["table_ids"]:
+                return booking
+
+    return None
+        

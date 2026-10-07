@@ -343,3 +343,122 @@
  2026-10-04 22:15:02,731 || Restaurant           || INFO       || admin.py                 :115  || Admin selected Table Management
  2026-10-04 22:16:12,216 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
  2026-10-04 22:16:13,869 || Restaurant           || INFO       || staff.py                 :95   || Staff selected Table Booking
+ 2026-10-04 22:24:54,777 || Restaurant           || WARNING    || login.py                 :45   || Invalid login menu option entered: python -u "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\main.py"
+ 2026-10-04 22:25:30,744 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:25:30,745 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:25:30,745 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-04 22:25:32,237 || Restaurant           || INFO       || staff.py                 :95   || Staff selected Table Booking
+ 2026-10-04 22:35:17,200 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:35:17,201 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:35:17,201 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-04 22:35:41,529 || Restaurant           || INFO       || staff.py                 :95   || Staff selected Table Booking
+ 2026-10-04 22:36:08,674 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:36:08,674 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:36:08,675 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-04 22:36:47,768 || Restaurant           || WARNING    || login.py                 :45   || Invalid login menu option entered: bharat@gmail.com
+ 2026-10-04 22:36:58,276 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:36:58,276 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:36:58,276 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:36:58,277 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-04 22:37:09,600 || Restaurant           || INFO       || staff.py                 :95   || Staff selected Table Booking
+ 2026-10-04 22:37:14,397 || Restaurant           || ERROR      || table_booking.py         :281  || Error while in booking menu : unsupported format string passed to list.__format__
+ 2026-10-04 22:41:48,653 || Restaurant           || WARNING    || login.py                 :45   || Invalid login menu option entered: rakhi@gamil.com
+ 2026-10-04 22:41:59,031 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:41:59,031 || Restaurant           || WARNING    || staff.py                 :57   || Invalid staff credentials
+ 2026-10-04 22:41:59,031 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-04 22:42:37,310 || Restaurant           || INFO       || staff.py                 :95   || Staff selected Table Booking
+ 2026-10-04 22:51:25,714 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-04 22:51:29,658 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-04 22:53:46,742 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-04 22:53:52,066 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-05 14:17:49,392 || Restaurant           || WARNING    || admin.py                 :60   || Invalid admin credentials
+ 2026-10-05 14:18:03,020 || Restaurant           || INFO       || admin.py                 :53   || Admin login successful
+ 2026-10-05 14:18:07,947 || Restaurant           || INFO       || admin.py                 :109  || Admin selected Menu Management
+ 2026-10-05 14:18:11,873 || Restaurant           || INFO       || menu_manager.py          :36   || Opening View Items
+ 2026-10-05 14:18:11,904 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-05 16:51:55,130 || Restaurant           || WARNING    || admin.py                 :60   || Invalid admin credentials
+ 2026-10-05 16:52:05,849 || Restaurant           || INFO       || admin.py                 :53   || Admin login successful
+ 2026-10-05 16:52:09,360 || Restaurant           || INFO       || admin.py                 :115  || Admin selected Table Management
+ 2026-10-05 16:52:50,277 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-05 16:52:52,778 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-05 16:53:03,673 || Restaurant           || INFO       || table_booking.py         :34   || Found 18 available table(s).
+ 2026-10-05 16:53:03,677 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-05 16:54:00,577 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 10
+ 2026-10-05 16:54:00,578 || Restaurant           || INFO       || table_booking.py         :34   || Found 18 available table(s).
+ 2026-10-05 16:54:00,582 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-05 16:54:08,694 || Restaurant           || ERROR      || table_booking.py         :264  || Error while in book table : booking_object() missing 1 required positional argument: 'status'
+ 2026-10-05 16:56:29,323 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-05 16:57:04,542 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-05 16:57:28,301 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 5
+ 2026-10-05 16:57:54,911 || Restaurant           || ERROR      || table_booking.py         :264  || Error while in book table : booking_object() missing 1 required positional argument: 'status'
+ 2026-10-05 17:10:08,081 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-05 17:10:12,031 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-05 17:10:40,671 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 11
+ 2026-10-05 17:10:40,672 || Restaurant           || INFO       || table_booking.py         :34   || Found 18 available table(s).
+ 2026-10-05 17:10:40,676 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-05 17:13:03,115 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 5
+ 2026-10-05 17:32:07,373 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-05 17:32:44,020 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-05 17:39:35,647 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 5
+ 2026-10-05 17:40:28,354 || Restaurant           || ERROR      || table_booking.py         :270  || Error while in book table : 'str' object has no attribute 'now'
+ 2026-10-05 17:44:11,456 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-05 17:44:21,114 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-05 17:45:04,807 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 3
+ 2026-10-05 21:57:06,243 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-05 21:57:07,885 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-05 21:57:10,029 || Restaurant           || INFO       || table_booking.py         :34   || Found 20 available table(s).
+ 2026-10-05 21:57:10,033 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-05 21:57:55,906 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 7
+ 2026-10-05 22:00:52,153 || Restaurant           || INFO       || staff.py                 :102  || Staff logout
+ 2026-10-05 22:00:52,154 || Restaurant           || WARNING    || staff.py                 :59   || Invalid staff credentials
+ 2026-10-05 22:01:23,655 || Restaurant           || WARNING    || staff.py                 :23   || Invalid staff email format entered
+ 2026-10-05 22:01:27,807 || Restaurant           || WARNING    || staff.py                 :23   || Invalid staff email format entered
+ 2026-10-05 22:03:33,904 || Restaurant           || INFO       || admin.py                 :53   || Admin login successful
+ 2026-10-05 22:03:42,812 || Restaurant           || INFO       || admin.py                 :121  || Admin logout successful
+ 2026-10-05 22:03:48,628 || Restaurant           || INFO       || login.py                 :40   || Admin logout successful
+ 2026-10-05 22:05:02,298 || Restaurant           || INFO       || staff.py                 :50   || Staff login successful
+ 2026-10-05 22:05:05,937 || Restaurant           || INFO       || staff.py                 :102  || Staff logout
+ 2026-10-05 22:05:05,938 || Restaurant           || WARNING    || staff.py                 :59   || Invalid staff credentials
+ 2026-10-05 22:09:58,438 || Restaurant           || INFO       || staff.py                 :52   || Staff login successful
+ 2026-10-05 22:10:08,885 || Restaurant           || INFO       || staff.py                 :104  || Staff logout
+ 2026-10-06 22:54:27,380 || Restaurant           || INFO       || staff.py                 :52   || Staff login successful
+ 2026-10-06 22:54:30,821 || Restaurant           || INFO       || staff.py                 :88   || Staff selected Order Management
+ 2026-10-06 22:54:33,466 || Restaurant           || INFO       || staff.py                 :88   || Staff selected Order Management
+ 2026-10-06 22:54:34,931 || Restaurant           || INFO       || staff.py                 :88   || Staff selected Order Management
+ 2026-10-06 22:59:34,776 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
+ 2026-10-06 22:59:38,703 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
+ 2026-10-06 23:02:12,567 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
+ 2026-10-06 23:02:21,015 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
+ 2026-10-06 23:02:33,130 || Restaurant           || ERROR      || staff.py                 :119  || Unexpected error in staff dashboard: module 'validation.table_validation' has no attribute 'validate_table_id'
+Traceback (most recent call last):
+  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\auth\staff.py", line 92, in staff_menu
+    OrderManager().order_menu()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order_manager.py", line 27, in order_menu
+    self.order.take_order()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order.py", line 28, in take_order
+    if table_validation.validate_table_id(self.table_id):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'validation.table_validation' has no attribute 'validate_table_id'
+ 2026-10-06 23:05:11,954 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
+ 2026-10-06 23:05:17,547 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
+ 2026-10-06 23:05:22,939 || Restaurant           || ERROR      || staff.py                 :119  || Unexpected error in staff dashboard: module 'validation.table_validation' has no attribute 'validate_table_id'
+Traceback (most recent call last):
+  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\auth\staff.py", line 92, in staff_menu
+    OrderManager().order_menu()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order_manager.py", line 27, in order_menu
+    self.order.take_order()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order.py", line 28, in take_order
+    if table_validation.validate_table_id(self.table_id):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'validation.table_validation' has no attribute 'validate_table_id'
+ 2026-10-06 23:08:08,854 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
+ 2026-10-06 23:08:11,569 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
+ 2026-10-06 23:08:39,527 || Restaurant           || INFO       || staff.py                 :95   || Staff selected Table Booking
+ 2026-10-06 23:09:03,177 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 1
+ 2026-10-06 23:09:44,634 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
+ 2026-10-07 10:08:52,169 || Restaurant           || WARNING    || admin.py                 :60   || Invalid admin credentials
+ 2026-10-07 10:14:32,468 || Restaurant           || WARNING    || staff.py                 :60   || Invalid staff credentials

@@ -27,8 +27,8 @@ class AddItem:
             while True:
 
                 print("\n\t" + "‗" * 50)
-                print("\n\t\t 1  ->   Veg")
-                print("\t\t 2  ->   Non-Veg")
+                print("\n\t\t 1  →   Veg")
+                print("\t\t 2  →   Non-Veg")
                 print("\t" + "‗" * 50)
 
                 option = input("\tEnter your choice (1-2) :")
@@ -48,8 +48,8 @@ class AddItem:
             while True:
             
                 print("\n\t" + "‗" * 50)
-                print("\n\t\t1  ->   Available")
-                print("\t\t2  ->   Not Available")
+                print("\n\t\t1  →   Available")
+                print("\t\t2  →   Not Available")
                 print("\t" + "‗" * 50)
 
                 option = input("\tEnter your choice (1-2) :")

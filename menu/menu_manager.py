@@ -18,11 +18,11 @@ class MenuManager:
                 print("\n\t" + "‗" * 50)
                 print("\n\t\t   Menu Management")
                 print("\t" + "‗" * 50)
-                print("\n\t\t 1  ->   Add Item")
-                print("\t\t 2  ->   View Items")
-                print("\t\t 3  ->   Update Item")
-                print("\t\t 4  ->   Delete Item")
-                print("\t\t 5  ->   Back")
+                print("\n\t\t 1  →   Add Item")
+                print("\t\t 2  →   View Items")
+                print("\t\t 3  →   Update Item")
+                print("\t\t 4  →   Delete Item")
+                print("\t\t 5  →   Back")
 
                 print("\t" + "‗" * 50)
 

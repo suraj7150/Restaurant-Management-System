@@ -128,15 +128,15 @@
     {
         "id": 19,
         "size": 8,
-        "status": "Occupied",
-        "booking_start": "2026-10-04 21:06:54",
-        "booking_duration": 6
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
     },
     {
         "id": 20,
         "size": 8,
-        "status": "Occupied",
-        "booking_start": "2026-10-04 21:06:54",
-        "booking_duration": 6
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
     }
 ]

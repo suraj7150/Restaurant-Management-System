@@ -72,9 +72,7 @@ class BookTable(TableManager):
         try:
 
             name = staff_utils.get_name()
-
             email = staff_utils.get_email()
-
             phone = staff_utils.get_phone()
 
             while True:
@@ -95,7 +93,6 @@ class BookTable(TableManager):
             is_multi = False
 
             if table_utils.get_available_tables():
-
                 if table_utils.is_multiple_tables(customer_count):
                     is_multi = True 
             else:
@@ -104,49 +101,64 @@ class BookTable(TableManager):
             if is_multi:
                 self.view_available_tables()
                 suitable_tables = table_utils.get_multiple_tables(customer_count)
+
                 if not suitable_tables:
                     print("Suitable tables not available...!")
                     return
 
                 table_ids = [table["id"] for table in suitable_tables]
 
-                duration = input("Enter booking duration (in hours) : ")
                 while True:
+                    duration = input("Enter booking duration (in hours) : ")
                 
                     if table_validation.validate_booking_duration(duration):
                         duration = int(duration)
-                        data = file_handling.read_data("database/bookings.json")
-
-                        booking_id = max(table["booking_id"] for table in data) + 1
-
-                        booking_table = table_utils.booking_object( booking_id,
-                            name, email, phone, customer_count, table_ids,
-                            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                            duration, "Active"
-                        )
-                        data.append(booking_table)
-                        file_handling.write_data(
-                            "database/bookings.json",
-                            data
-                        )
-                        data = file_handling.read_data("database/tables.json")
-
-                        selected_ids = [table["id"] for table in suitable_tables]
-                        for table in data:
-                            if table["id"] in selected_ids:
-                                table["status"] = "Occupied"
-                                table["booking_duration"] = duration
-                                table["booking_start"] = datetime.now().strftime(
-                                                            "%Y-%m-%d %H:%M:%S")      
-                        file_handling.write_data(
-                            "database/tables.json",
-                            data
-                        )
                         break
+                    print("Invalid duration...!")
 
-                    else:
-                        print("Invalid duration...!")
+                data = file_handling.read_data(
+                    "database/bookings.json"
+                )
 
+                booking_id = max(
+                    table["booking_id"] for table in data
+                ) + 1
+
+                booking_table = table_utils.booking_object( 
+                    booking_id,
+                    name,
+                    email, 
+                    phone, 
+                    customer_count, 
+                    table_ids,
+                    datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    duration, 
+                    "Active"
+                )
+                data.append(booking_table)
+                file_handling.write_data(
+                    "database/bookings.json",
+                    data
+                )
+                data = file_handling.read_data("database/tables.json")
+
+                selected_ids = [table["id"] for table in suitable_tables]
+                for table in data:
+                    if table["id"] in selected_ids:
+                        table["status"] = "Occupied"
+                        table["booking_duration"] = duration
+                        table["booking_start"] = datetime.now().strftime(
+                            "%Y-%m-%d %H:%M:%S"
+                        )      
+                file_handling.write_data(
+                    "database/tables.json",
+                    data
+                )
+                table_utils.booking_successful(
+                    booking_id, name, customer_count, 
+                    table_ids, duration,
+                    datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                )
             else:
                 best_table, suitable_tables = table_utils.get_one_table(customer_count)
 
@@ -186,8 +198,8 @@ class BookTable(TableManager):
                     if table_validation.validate_id(table_id):
                         table_id = int(table_id)
                         break
-                    else:
-                        print("Invalid id...!")
+                    
+                    print("Invalid id...!")
 
                 found = False
                 for table in suitable_tables:
@@ -197,45 +209,63 @@ class BookTable(TableManager):
                     print("out of range table id...!")
                     return
 
-                duration = input("Enter booking duration (in hours) : ")
                 while True:
+                    duration = input("Enter booking duration (in hours) : ")
 
                     if table_validation.validate_booking_duration(duration):
                         duration = int(duration)
-                        table_ids = []
+                        break
 
-                        table_ids.append(table_id)
+                    print("Invalid duration...!")
 
-                        data = file_handling.read_data("database/bookings.json")
+                table_ids = [table_id]
 
-                        booking_id = max(table["booking_id"] for table in data) + 1       
+                data = file_handling.read_data(
+                    "database/bookings.json"
+                )
 
-                        booking_table = table_utils.booking_object( booking_id,
-                            name, email, phone, customer_count, table_ids,
-                            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                            duration, "Active"
-                        )
-                        data.append(booking_table)
-                        file_handling.write_data(
-                            "database/bookings.json",
-                            data
-                        )
-                        data = file_handling.read_data("database/tables.json")
-                        for table in data:
-                            if table["id"] == table_id:
-                                table["status"] = "Occupied"
-                                table["booking_duration"] = duration
-                                table["booking_start"] = datetime.now().strftime(
-                                                            "%Y-%m-%d %H:%M:%S")
-                                break
-                        file_handling.write_data(
-                            "database/tables.json",
-                            data
+                booking_id = max(
+                    table["booking_id"] for table in data
+                ) + 1       
+
+                booking_table = table_utils.booking_object(
+                    booking_id,
+                    name, 
+                    email, 
+                    phone, 
+                    customer_count, 
+                    table_ids,
+                    datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    duration, 
+                    "Active"
+                )
+                data.append(booking_table)
+
+                file_handling.write_data(
+                    "database/bookings.json",
+                    data
+                )
+                data = file_handling.read_data(
+                    "database/tables.json"
+                )
+                for table in data:
+                    if table["id"] == table_id:
+                        table["status"] = "Occupied"
+                        table["booking_duration"] = duration
+                        table["booking_start"] = datetime.now().strftime(
+                            "%Y-%m-%d %H:%M:%S"
                         )
                         break
-                    else:
-                        print("Invalid duration...!")
-      
+                file_handling.write_data(
+                    "database/tables.json",
+                    data
+                )
+                table_utils.booking_successful(
+                    booking_id, name, customer_count, 
+                    table_ids, duration,
+                    datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                )
+
         except Exception as error:
             logger.error(
                 f"Error while in book table : {error}"
@@ -253,10 +283,10 @@ class TableBooking(BookTable):
                 print("\n\t\t   TABLE BOOKING")
                 print("\t" + "‗" * 50)
 
-                print("\n\t\t 1  ->   Book Table")
-                print("\t\t 2  ->   View Available Tables")
-                print("\t\t 3  ->   Booking Status")
-                print("\t\t 4  ->   Back")
+                print("\n\t\t 1  →   Book Table")
+                print("\t\t 2  →   View Available Tables")
+                print("\t\t 3  →   Booking Status")
+                print("\t\t 4  →   Back")
 
                 print("\t" + "‗" * 50)
 
@@ -292,9 +322,9 @@ class TableBooking(BookTable):
             print("\n\t\t    BOOKING STATUS")
             print("\t" + "‗" * 50)
 
-            print("\n\t\t 1  ->   View Booking By ID")
-            print("\t\t 2  ->   View All Booking Status")
-            print("\t\t 3  ->   Back")
+            print("\n\t\t 1  →   View Booking By ID")
+            print("\t\t 2  →   View All Booking Status")
+            print("\t\t 3  →   Back")
 
             print("\t" + "‗" * 50)
 
@@ -315,12 +345,12 @@ class TableBooking(BookTable):
 
     def view_booking_by_id(self):
         while True:
-            booking_id = input("Enter booking id : ")
+            booking_id = input("\t Enter booking id : ")
             if table_validation.validate_id(booking_id):
                 booking_id = int(booking_id)
                 break
             else: 
-                print("Invalid booking id...!")
+                print("\t Invalid booking id...!")
 
         data = file_handling.read_data("database/bookings.json")
         for booking in data:
@@ -336,10 +366,31 @@ class TableBooking(BookTable):
                 print(f"Duration      : {booking["booking_duration"]}")
                 print(f"Status        : {booking["status"]}")
                 print("‗" * 50)
-                
+
                 return
-        print("Id not available...!")
+        print("\tId not available...!")
 
     def view_all_booking_status(self):
 
         data = file_handling.read_data("database/bookings.json")
+
+        print("‗" * 80)
+        print(f" " * 30 + "BOOK TABLE")
+        print("‗" * 80)
+        print(
+            f'{"ID":<4}'
+            f'{"NAME":<15}'
+            f'{"TABLES":<15}'
+            f'{"START":<30}'
+            f'{"STATUS":<15}'
+        )
+        print("‗" * 80)
+        for booking in data:
+            print(
+                f'{booking["booking_id"]:<4}'
+                f'{booking["customer_name"]:<15}'
+                f'{str(booking["table_ids"]):<15}'
+                f'{booking["booking_start"]:<30}'
+                f'{booking["status"]:<15}'
+            )
+        print("‗" * 80)

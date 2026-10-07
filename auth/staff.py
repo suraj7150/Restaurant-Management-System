@@ -3,6 +3,7 @@ from validation import user_validation
 from utils.logger import logger
 from utils import file_handling
 from table.table_booking import TableBooking
+from order.order_manager import OrderManager
 
 class Staff:
     def __init__(self):
@@ -47,18 +48,18 @@ class Staff:
                         email == staff_id["email"] and 
                         password == staff_id["password"]
                     ):
+                        found = True
+
                         logger.info("Staff login successful")
                         print("\t Login successfully...")
                         self.staff_menu()
-                        found = True
-                        break
+                        return 
+                        
 
-                    else:
-                        logger.warning("Invalid staff credentials")
-                        print("\t Staff not found...")
+                if not found:
+                    logger.warning("Invalid staff credentials")
+                    print("\t Staff not found...")
 
-                if found:
-                    break
         except Exception as error:
 
             logger.error(
@@ -75,9 +76,9 @@ class Staff:
                 print("\n\t          STAFF DASHBOARD")
                 print("\t" + "‗" * 50)
 
-                print("\n\t\t 1  ->  Order Management")
-                print("\t\t 2  ->  Table Booking")
-                print("\t\t 3  ->  Logout")
+                print("\n\t\t 1  →  Order Management")
+                print("\t\t 2  →  Table Booking")
+                print("\t\t 3  →  Logout")
 
                 print("\t" + "‗" * 50)
 
@@ -87,15 +88,13 @@ class Staff:
                     logger.info(
                         "Staff selected Order Management"
                     )
-                    print("\n\t" + "=" * 50)
-                    print("\t\t  Order Management")
-                    print("\t" + "=" * 50)
+                    OrderManager().order_menu()
 
                 elif option == "2":
                     logger.info(
                         "Staff selected Table Booking"
                     )
-                    # self.table_booking.booking_menu()
+                   
                     TableBooking().booking_menu()
                     
 
@@ -103,9 +102,9 @@ class Staff:
                     logger.info(
                         "Staff logout"
                     )
-                    print("\n\t" + "=" * 50)
+                    print("\n\t" + "‗" * 50)
                     print("\t\t  Staff Logout")
-                    print("\t" + "=" * 50)
+                    print("\t" + "‗" * 50)
                     break
 
                 else:

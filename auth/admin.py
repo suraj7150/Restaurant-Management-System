@@ -75,12 +75,12 @@ class Admin:
                 print("\n\t         ADMIN DASHBOARD")
                 print("\t" + "‗" * 50)
 
-                print("\n\t\t 1  ->  Inventory Management")
-                print("\t\t 2  ->  Staff Management")
-                print("\t\t 3  ->  Order Management")
-                print("\t\t 4  ->   Menu Management")
-                print("\t\t 5  ->  Table Management")
-                print("\t\t 6  ->  Logout")
+                print("\n\t\t 1  →  Inventory Management")
+                print("\t\t 2  →  Staff Management")
+                print("\t\t 3  →  Order Management")
+                print("\t\t 4  →   Menu Management")
+                print("\t\t 5  →  Table Management")
+                print("\t\t 6  →  Logout")
                 print("\t" + "‗" * 50)
 
                 option = input("\n\t please select any option (1-6) : ")

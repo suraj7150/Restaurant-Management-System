@@ -12,9 +12,9 @@ class Login:
                 print("\n" + "\t" + "‗" * 50)
                 print("\n\t         RESTAURANT MANAGEMENT ")
                 print("\t" + "‗" * 50)
-                print("\n\t\t 1  -> Admin Login")
-                print("\t\t 2  -> Staff Login")
-                print("\t\t 3  -> Exit")
+                print("\n\t\t 1  → Admin Login")
+                print("\t\t 2  → Staff Login")
+                print("\t\t 3  → Exit")
                 print("\t" + "‗" * 50)
 
 
