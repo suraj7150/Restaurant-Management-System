@@ -13,7 +13,7 @@
                 "quantity": 1
             }
         ],
-        "status": "Pending"
+        "status": "Completed"
     },
     {
         "order_id": 2,
@@ -23,6 +23,86 @@
             {
                 "item_id": 6,
                 "quantity": 2
+            }
+        ],
+        "status": "Pending"
+    },
+    {
+        "order_id": 3,
+        "table_id": 9,
+        "order_time": "2026-10-07 11:35:46",
+        "items": [
+            {
+                "item_id": 5,
+                "quantity": 6
+            }
+        ],
+        "status": "Completed"
+    },
+    {
+        "order_id": 4,
+        "table_id": 15,
+        "order_time": "2026-10-07 11:51:48",
+        "items": [
+            {
+                "item_id": 98,
+                "quantity": 3
+            }
+        ],
+        "status": "Completed"
+    },
+    {
+        "order_id": 5,
+        "table_id": 15,
+        "order_time": "2026-10-07 11:53:59",
+        "items": [
+            {
+                "item_id": 98,
+                "quantity": 23
+            }
+        ],
+        "status": "Pending"
+    },
+    {
+        "order_id": 6,
+        "table_id": 15,
+        "order_time": "2026-10-07 12:07:16",
+        "items": [
+            {
+                "item_id": 78,
+                "quantity": 6
+            }
+        ],
+        "status": "Pending"
+    },
+    {
+        "order_id": 7,
+        "table_id": 15,
+        "order_time": "2026-10-07 12:08:46",
+        "items": [
+            {
+                "item_id": 34,
+                "quantity": 23
+            },
+            {
+                "item_id": 67,
+                "quantity": 2
+            }
+        ],
+        "status": "Cancelled"
+    },
+    {
+        "order_id": 8,
+        "table_id": 15,
+        "order_time": "2026-10-07 17:47:44",
+        "items": [
+            {
+                "item_id": 23,
+                "quantity": 2
+            },
+            {
+                "item_id": 67,
+                "quantity": 3
             }
         ],
         "status": "Pending"

@@ -51,6 +51,15 @@ def get_next_bill_id():
 
     return new_id
 
+def found_bill(bill_id):
+    
+    data = file_handling.read_data("database/bills.json")
+
+    for bill in data:
+        if bill["bill_id"] == bill_id:
+            return bill
+
+    return None
             
 
 

@@ -2,112 +2,6 @@
     {
         "booking_id": 1,
         "customer_name": "suraj",
-        "customer_email": "suraj@gamil.com",
-        "customer_phone": "9484948481",
-        "customer_count": 5,
-        "table_ids": [
-            15
-        ],
-        "booking_start": "2026-10-04 17:26:08",
-        "booking_duration": 2,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 2,
-        "customer_name": "suraj",
-        "customer_email": "suraj@gmail.com",
-        "customer_phone": "9838474474",
-        "customer_count": 5,
-        "table_ids": [
-            16
-        ],
-        "booking_start": "2026-10-04 17:43:24",
-        "booking_duration": 6,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 3,
-        "customer_name": "suraj",
-        "customer_email": "suraj@gamil.com",
-        "customer_phone": "9827333831",
-        "customer_count": 11,
-        "table_ids": [
-            20
-        ],
-        "booking_start": "2026-10-04 18:10:46",
-        "booking_duration": 4,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 4,
-        "customer_name": "suraj",
-        "customer_email": "surja@mail.ocm",
-        "customer_phone": "9827373731",
-        "customer_count": 11,
-        "table_ids": [
-            20
-        ],
-        "booking_start": "2026-10-04 18:11:14",
-        "booking_duration": 3,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 5,
-        "customer_name": "suraj",
-        "customer_email": "suraj@gamil.com",
-        "customer_phone": "9484848484",
-        "customer_count": 11,
-        "table_ids": [
-            19,
-            20
-        ],
-        "booking_start": "2026-10-04 18:37:52",
-        "booking_duration": 4,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 6,
-        "customer_name": "surja",
-        "customer_email": "suraj@gja.com",
-        "customer_phone": "9848848484",
-        "customer_count": 5,
-        "table_ids": [
-            17
-        ],
-        "booking_start": "2026-10-04 20:40:38",
-        "booking_duration": 2,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 7,
-        "customer_name": "sruaj",
-        "customer_email": "ajfaur@gami.com",
-        "customer_phone": "9848484843",
-        "customer_count": 5,
-        "table_ids": [
-            15
-        ],
-        "booking_start": "2026-10-04 21:00:45",
-        "booking_duration": 5,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 8,
-        "customer_name": "suraj",
-        "customer_email": "sruaj@gmail.com",
-        "customer_phone": "9484848484",
-        "customer_count": 11,
-        "table_ids": [
-            19,
-            20
-        ],
-        "booking_start": "2026-10-04 21:06:54",
-        "booking_duration": 6,
-        "status": "Complete"
-    },
-    {
-        "booking_id": 9,
-        "customer_name": "suraj",
         "customer_email": "Suraj@gmail.com",
         "customer_phone": "9484848482",
         "customer_count": 11,
@@ -120,7 +14,7 @@
         "status": "Completed"
     },
     {
-        "booking_id": 10,
+        "booking_id": 2,
         "customer_name": "suraj",
         "customer_email": "suraj@gmail.com",
         "customer_phone": "9488488484",
@@ -133,7 +27,7 @@
         "status": "Completed"
     },
     {
-        "booking_id": 11,
+        "booking_id": 3,
         "customer_name": "suraj",
         "customer_email": "suraj@gmail.com",
         "customer_phone": "9877765545",
@@ -146,7 +40,7 @@
         "status": "Completed"
     },
     {
-        "booking_id": 12,
+        "booking_id": 4,
         "customer_name": "suraj",
         "customer_email": "suraj@gmil.com",
         "customer_phone": "9484848448",
@@ -159,7 +53,7 @@
         "status": "Completed"
     },
     {
-        "booking_id": 13,
+        "booking_id": 5,
         "customer_name": "suraj",
         "customer_email": "suraj@gmail.com",
         "customer_phone": "9828484884",
@@ -172,7 +66,7 @@
         "status": "Completed"
     },
     {
-        "booking_id": 14,
+        "booking_id": 6,
         "customer_name": "suraj",
         "customer_email": "suraj@gmail.com",
         "customer_phone": "9484848483",
@@ -183,5 +77,44 @@
         "booking_start": "2026-10-06 23:09:27",
         "booking_duration": 7,
         "status": "Completed"
+    },
+    {
+        "booking_id": 7,
+        "customer_name": "suraj",
+        "customer_email": "suraj@gmail.com",
+        "customer_phone": "9484848448",
+        "customer_count": 4,
+        "table_ids": [
+            9
+        ],
+        "booking_start": "2026-10-07 11:35:14",
+        "booking_duration": 8,
+        "status": "Active"
+    },
+    {
+        "booking_id": 8,
+        "customer_name": "suraj",
+        "customer_email": "suraj@gamil.com",
+        "customer_phone": "9484848484",
+        "customer_count": 5,
+        "table_ids": [
+            15
+        ],
+        "booking_start": "2026-10-07 11:47:40",
+        "booking_duration": 4,
+        "status": "Completed"
+    },
+    {
+        "booking_id": 9,
+        "customer_name": "suraj",
+        "customer_email": "suraj@gamil.com",
+        "customer_phone": "8955575512",
+        "customer_count": 5,
+        "table_ids": [
+            15
+        ],
+        "booking_start": "2026-10-07 17:39:00",
+        "booking_duration": 7,
+        "status": "Active"
     }
 ]

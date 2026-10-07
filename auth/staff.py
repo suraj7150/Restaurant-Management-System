@@ -4,6 +4,7 @@ from utils.logger import logger
 from utils import file_handling
 from table.table_booking import TableBooking
 from order.order_manager import OrderManager
+from order.billing import Billing
 
 class Staff:
     def __init__(self):
@@ -77,8 +78,9 @@ class Staff:
                 print("\t" + "‗" * 50)
 
                 print("\n\t\t 1  →  Order Management")
+                print("\t\t 2  →  Billing")
                 print("\t\t 2  →  Table Booking")
-                print("\t\t 3  →  Logout")
+                print("\t\t 4  →  Logout")
 
                 print("\t" + "‗" * 50)
 
@@ -92,13 +94,18 @@ class Staff:
 
                 elif option == "2":
                     logger.info(
+                        "Staff selected Billing"
+                    )
+                    Billing().billing_menu()
+                   
+                elif option == "3":
+                    logger.info(
                         "Staff selected Table Booking"
                     )
                    
-                    TableBooking().booking_menu()
+                    TableBooking().booking_menu()                    
                     
-
-                elif option == "3":
+                elif option == "4":
                     logger.info(
                         "Staff logout"
                     )

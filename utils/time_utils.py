@@ -59,7 +59,3 @@ class TimeManager:
             "database/tables.json",
             table_data
         )
-
-
-                
-            

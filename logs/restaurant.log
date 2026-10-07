@@ -430,31 +430,6 @@
  2026-10-06 23:02:12,567 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
  2026-10-06 23:02:21,015 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
  2026-10-06 23:02:33,130 || Restaurant           || ERROR      || staff.py                 :119  || Unexpected error in staff dashboard: module 'validation.table_validation' has no attribute 'validate_table_id'
-Traceback (most recent call last):
-  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\auth\staff.py", line 92, in staff_menu
-    OrderManager().order_menu()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order_manager.py", line 27, in order_menu
-    self.order.take_order()
-    ~~~~~~~~~~~~~~~~~~~~~^^
-  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order.py", line 28, in take_order
-    if table_validation.validate_table_id(self.table_id):
-       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: module 'validation.table_validation' has no attribute 'validate_table_id'
- 2026-10-06 23:05:11,954 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
- 2026-10-06 23:05:17,547 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
- 2026-10-06 23:05:22,939 || Restaurant           || ERROR      || staff.py                 :119  || Unexpected error in staff dashboard: module 'validation.table_validation' has no attribute 'validate_table_id'
-Traceback (most recent call last):
-  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\auth\staff.py", line 92, in staff_menu
-    OrderManager().order_menu()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order_manager.py", line 27, in order_menu
-    self.order.take_order()
-    ~~~~~~~~~~~~~~~~~~~~~^^
-  File "e:\github\my all repository\Restaurant Management System\Restaurant-Management-System\order\order.py", line 28, in take_order
-    if table_validation.validate_table_id(self.table_id):
-       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: module 'validation.table_validation' has no attribute 'validate_table_id'
  2026-10-06 23:08:08,854 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
  2026-10-06 23:08:11,569 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
  2026-10-06 23:08:39,527 || Restaurant           || INFO       || staff.py                 :95   || Staff selected Table Booking
@@ -462,3 +437,121 @@ AttributeError: module 'validation.table_validation' has no attribute 'validate_
  2026-10-06 23:09:44,634 || Restaurant           || INFO       || staff.py                 :89   || Staff selected Order Management
  2026-10-07 10:08:52,169 || Restaurant           || WARNING    || admin.py                 :60   || Invalid admin credentials
  2026-10-07 10:14:32,468 || Restaurant           || WARNING    || staff.py                 :60   || Invalid staff credentials
+ 2026-10-07 11:33:59,856 || Restaurant           || INFO       || staff.py                 :53   || Staff login successful
+ 2026-10-07 11:34:05,858 || Restaurant           || INFO       || staff.py                 :94   || Staff selected Table Booking
+ 2026-10-07 11:34:27,686 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 5
+ 2026-10-07 11:35:05,458 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 4
+ 2026-10-07 11:35:23,788 || Restaurant           || INFO       || staff.py                 :88   || Staff selected Order Management
+ 2026-10-07 11:40:25,925 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 11:40:28,544 || Restaurant           || INFO       || staff.py                 :96   || Staff selected Billing
+ 2026-10-07 11:40:32,880 || Restaurant           || ERROR      || staff.py                 :126  || Unexpected error in staff dashboard: Expecting value: line 1 column 1 (char 0)
+ 2026-10-07 11:44:39,725 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 11:44:41,064 || Restaurant           || INFO       || staff.py                 :96   || Staff selected Billing
+ 2026-10-07 11:47:08,953 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 11:47:12,254 || Restaurant           || INFO       || staff.py                 :102  || Staff selected Table Booking
+ 2026-10-07 11:47:35,583 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 5
+ 2026-10-07 11:47:46,947 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 11:51:01,045 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 11:51:06,987 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 11:51:08,420 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-07 11:51:59,867 || Restaurant           || INFO       || staff.py                 :96   || Staff selected Billing
+ 2026-10-07 11:53:01,892 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 11:53:03,465 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 11:53:26,981 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-07 12:03:49,399 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 12:03:56,982 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 12:06:43,219 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 12:06:45,755 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 12:07:06,873 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-07 12:07:49,638 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 12:07:53,534 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-07 14:32:19,350 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 14:32:21,323 || Restaurant           || INFO       || staff.py                 :96   || Staff selected Billing
+ 2026-10-07 14:35:48,346 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 14:35:49,479 || Restaurant           || INFO       || staff.py                 :96   || Staff selected Billing
+ 2026-10-07 14:46:11,187 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 14:46:14,448 || Restaurant           || INFO       || staff.py                 :102  || Staff selected Table Booking
+ 2026-10-07 14:46:18,841 || Restaurant           || INFO       || table_booking.py         :34   || Found 18 available table(s).
+ 2026-10-07 14:46:18,851 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-07 14:50:00,908 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 14:51:25,298 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-07 17:08:40,016 || Restaurant           || INFO       || admin.py                 :53   || Admin login successful
+ 2026-10-07 17:08:46,153 || Restaurant           || INFO       || admin.py                 :89   || Admin selected Inventory Management
+ 2026-10-07 17:08:48,525 || Restaurant           || INFO       || inventory.py             :27   || Opening Add Stock
+ 2026-10-07 17:09:21,427 || Restaurant           || INFO       || inventory.py             :64   || Valid stock name entered: sruaj
+ 2026-10-07 17:09:24,007 || Restaurant           || INFO       || inventory.py             :82   || Valid stock category entered: suaj
+ 2026-10-07 17:09:27,614 || Restaurant           || INFO       || inventory.py             :100  || Valid stock unit entered: kg
+ 2026-10-07 17:09:27,616 || Restaurant           || INFO       || inventory.py             :135  || Generated new stock ID: 51
+ 2026-10-07 17:09:27,619 || Restaurant           || INFO       || inventory.py             :153  || Stock added successfully: ID=51, Name=sruaj
+ 2026-10-07 17:09:32,516 || Restaurant           || INFO       || inventory.py             :31   || Opening View Stock
+ 2026-10-07 17:09:32,518 || Restaurant           || INFO       || inventory.py             :173  || Inventory data loaded successfully: 51 stock(s)
+ 2026-10-07 17:09:55,821 || Restaurant           || INFO       || inventory.py             :27   || Opening Add Stock
+ 2026-10-07 17:10:05,319 || Restaurant           || INFO       || inventory.py             :64   || Valid stock name entered: sruaj
+ 2026-10-07 17:10:10,787 || Restaurant           || INFO       || inventory.py             :82   || Valid stock category entered: suaj
+ 2026-10-07 17:10:13,116 || Restaurant           || INFO       || inventory.py             :100  || Valid stock unit entered: kg
+ 2026-10-07 17:10:13,117 || Restaurant           || WARNING    || inventory.py             :122  || Duplicate stock found: Name=sruaj, Category=suaj, Unit=kg
+ 2026-10-07 17:10:24,428 || Restaurant           || INFO       || inventory.py             :31   || Opening View Stock
+ 2026-10-07 17:10:24,429 || Restaurant           || INFO       || inventory.py             :173  || Inventory data loaded successfully: 51 stock(s)
+ 2026-10-07 17:10:29,644 || Restaurant           || INFO       || inventory.py             :27   || Opening Add Stock
+ 2026-10-07 17:10:34,736 || Restaurant           || INFO       || inventory.py             :64   || Valid stock name entered: sruaj
+ 2026-10-07 17:10:36,486 || Restaurant           || INFO       || inventory.py             :82   || Valid stock category entered: jfak
+ 2026-10-07 17:10:39,530 || Restaurant           || INFO       || inventory.py             :100  || Valid stock unit entered: kg
+ 2026-10-07 17:10:39,532 || Restaurant           || INFO       || inventory.py             :135  || Generated new stock ID: 52
+ 2026-10-07 17:10:39,534 || Restaurant           || INFO       || inventory.py             :153  || Stock added successfully: ID=52, Name=sruaj
+ 2026-10-07 17:11:11,169 || Restaurant           || INFO       || inventory.py             :35   || Opening Delete Stock
+ 2026-10-07 17:11:16,247 || Restaurant           || INFO       || inventory.py             :216  || Valid stock ID entered: 52
+ 2026-10-07 17:11:16,247 || Restaurant           || INFO       || inventory.py             :227  || Reading inventory data for deletion
+ 2026-10-07 17:11:16,251 || Restaurant           || INFO       || inventory.py             :242  || Stock deleted successfully: ID=52
+ 2026-10-07 17:11:21,109 || Restaurant           || INFO       || inventory.py             :31   || Opening View Stock
+ 2026-10-07 17:11:21,110 || Restaurant           || INFO       || inventory.py             :173  || Inventory data loaded successfully: 51 stock(s)
+ 2026-10-07 17:11:23,895 || Restaurant           || INFO       || inventory.py             :35   || Opening Delete Stock
+ 2026-10-07 17:11:26,184 || Restaurant           || INFO       || inventory.py             :216  || Valid stock ID entered: 51
+ 2026-10-07 17:11:26,184 || Restaurant           || INFO       || inventory.py             :227  || Reading inventory data for deletion
+ 2026-10-07 17:11:26,187 || Restaurant           || INFO       || inventory.py             :242  || Stock deleted successfully: ID=51
+ 2026-10-07 17:11:28,457 || Restaurant           || INFO       || inventory.py             :31   || Opening View Stock
+ 2026-10-07 17:11:28,458 || Restaurant           || INFO       || inventory.py             :173  || Inventory data loaded successfully: 50 stock(s)
+ 2026-10-07 17:11:32,069 || Restaurant           || INFO       || inventory.py             :39   || Exiting Inventory Management
+ 2026-10-07 17:11:57,638 || Restaurant           || INFO       || admin.py                 :115  || Admin selected Table Management
+ 2026-10-07 17:11:59,683 || Restaurant           || INFO       || table_management.py      :135  || Tables viewed successfully.
+ 2026-10-07 17:15:28,557 || Restaurant           || INFO       || admin.py                 :53   || Admin login successful
+ 2026-10-07 17:15:33,394 || Restaurant           || INFO       || admin.py                 :115  || Admin selected Table Management
+ 2026-10-07 17:15:36,338 || Restaurant           || INFO       || table_management.py      :136  || Tables viewed successfully.
+ 2026-10-07 17:16:12,427 || Restaurant           || INFO       || table_management.py      :77   || Table 21 Added Successfully...
+ 2026-10-07 17:16:15,054 || Restaurant           || INFO       || table_management.py      :136  || Tables viewed successfully.
+ 2026-10-07 17:16:26,134 || Restaurant           || INFO       || table_management.py      :152  || Valid Table ID entered: 4
+ 2026-10-07 17:16:26,136 || Restaurant           || INFO       || table_management.py      :174  || Table deleted successfully: ID=4
+ 2026-10-07 17:16:28,467 || Restaurant           || INFO       || table_management.py      :136  || Tables viewed successfully.
+ 2026-10-07 17:16:55,466 || Restaurant           || INFO       || table_management.py      :152  || Valid Table ID entered: 21
+ 2026-10-07 17:16:55,468 || Restaurant           || INFO       || table_management.py      :174  || Table deleted successfully: ID=21
+ 2026-10-07 17:16:58,596 || Restaurant           || INFO       || table_management.py      :136  || Tables viewed successfully.
+ 2026-10-07 17:28:25,479 || Restaurant           || WARNING    || login.py                 :45   || Invalid login menu option entered: 11
+ 2026-10-07 17:28:37,364 || Restaurant           || WARNING    || login.py                 :45   || Invalid login menu option entered: suraj@gmail.co,
+ 2026-10-07 17:28:43,179 || Restaurant           || WARNING    || login.py                 :45   || Invalid login menu option entered: suraj@gmail.com
+ 2026-10-07 17:29:28,828 || Restaurant           || INFO       || admin.py                 :53   || Admin login successful
+ 2026-10-07 17:29:33,190 || Restaurant           || INFO       || admin.py                 :121  || Admin logout successful
+ 2026-10-07 17:29:58,355 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 17:30:15,522 || Restaurant           || INFO       || staff.py                 :102  || Staff selected Table Booking
+ 2026-10-07 17:37:06,046 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 17:37:14,294 || Restaurant           || INFO       || staff.py                 :102  || Staff selected Table Booking
+ 2026-10-07 17:37:54,197 || Restaurant           || INFO       || table_booking.py         :34   || Found 19 available table(s).
+ 2026-10-07 17:37:54,204 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-07 17:38:07,059 || Restaurant           || INFO       || table_booking.py         :34   || Found 19 available table(s).
+ 2026-10-07 17:38:07,065 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-07 17:38:39,090 || Restaurant           || INFO       || table_booking.py         :83   || Valid customer count entered: 5
+ 2026-10-07 17:39:23,465 || Restaurant           || INFO       || table_booking.py         :34   || Found 18 available table(s).
+ 2026-10-07 17:39:23,469 || Restaurant           || INFO       || table_booking.py         :56   || Available tables displayed successfully.
+ 2026-10-07 17:40:50,053 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 17:41:09,925 || Restaurant           || INFO       || order.py                 :34   || Valid table ID entered: 15
+ 2026-10-07 17:41:09,927 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-07 17:41:40,618 || Restaurant           || WARNING    || order.py                 :112  || Invalid add-another choice: akfjk
+ 2026-10-07 17:41:52,935 || Restaurant           || WARNING    || order.py                 :64   || Invalid item ID entered: ya
+ 2026-10-07 17:46:43,872 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 17:46:46,529 || Restaurant           || INFO       || staff.py                 :90   || Staff selected Order Management
+ 2026-10-07 17:46:51,069 || Restaurant           || INFO       || order.py                 :34   || Valid table ID entered: 15
+ 2026-10-07 17:46:51,071 || Restaurant           || INFO       || menu_manager.py          :70   || Successfully loaded 100 menu items
+ 2026-10-07 17:46:57,932 || Restaurant           || WARNING    || order.py                 :113  || Invalid add-another choice: afkj
+ 2026-10-07 17:47:01,353 || Restaurant           || WARNING    || order.py                 :113  || Invalid add-another choice: fjakj
+ 2026-10-07 17:47:05,301 || Restaurant           || INFO       || order.py                 :107  || User chose to add another item
+ 2026-10-07 17:47:25,374 || Restaurant           || WARNING    || order.py                 :64   || Invalid item ID entered: gh
+ 2026-10-07 17:47:44,290 || Restaurant           || INFO       || order.py                 :110  || User finished adding items
+ 2026-10-07 17:47:44,293 || Restaurant           || INFO       || order.py                 :143  || Order placed successfully. Order ID: 8, Table ID: 15

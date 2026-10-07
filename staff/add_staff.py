@@ -49,7 +49,3 @@ class AddStaff:
         print("\t New Staff Add Successfully...")
         print(f"\t Staff : {self.name}")
         print("‗" * 55)
-
-
-        
-    

@@ -93,7 +93,6 @@ class MenuManager:
                     
             print("‗" * 50)
 
-
         except Exception as error:
             logger.error(
                 f"Error while Show Item : {error}"

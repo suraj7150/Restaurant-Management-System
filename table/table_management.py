@@ -127,7 +127,8 @@ class TableManagement:
                     f'{"seats":<10}'
                     f'{table["status"]:<15}'
                     f'{str(booking_start):<30}'
-                    f'{str(booking_duration):<30}'
+                    f'{str(booking_duration):<5}'
+                    f'{"hours":<10}'
                 )
 
             print("‗" * 80)

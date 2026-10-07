@@ -1,4 +1,5 @@
 from order.order import Order
+from utils.logger import logger
 
 
 class OrderManager:
@@ -7,33 +8,38 @@ class OrderManager:
         self.order = Order()
 
     def order_menu(self):
-
-        while True:
-
-            print("\n\t" + "‗" * 50)
-            print("\n\t\t      Order Management")
-            print("\t" + "‗" * 50)
-
-            print("\n\t\t1 → Take Order")
-            print("\t\t2 → Update Order")
-            print("\t\t3 → Cancel Order")
-            print("\t\t4 → Back")
             
-            print("\t" + "‗" * 50)
+        try:
+            while True:
 
-            choice = input("\n\t\tEnter your choice: ")
+                print("\n\t" + "‗" * 50)
+                print("\n\t\t      Order Management")
+                print("\t" + "‗" * 50)
 
-            if choice == "1":
-                self.order.take_order()
+                print("\n\t\t1 → Take Order")
+                print("\t\t2 → Update Order")
+                print("\t\t3 → Cancel Order")
+                print("\t\t4 → Back")
+                
+                print("\t" + "‗" * 50)
 
-            elif choice == "2":
-                self.order.update_order()
+                choice = input("\n\t\tEnter your choice: ")
 
-            elif choice == "3":
-                self.order.cancel_order()
+                if choice == "1":
+                    self.order.take_order()
 
-            elif choice == "4":
-                break
+                elif choice == "2":
+                    self.order.update_order()
 
-            else:
-                print("\n\t\tInvalid choice. Please try again.")
+                elif choice == "3":
+                    self.order.cancel_order()
+
+                elif choice == "4":
+                    break
+
+                else:
+                    logger.warning(f"Invalid choice : {choice}")
+                    print("\n\t\tInvalid choice. Please try again.")
+        except Exception as error:
+            logger.error(f"Error while in order menu : {error}")
+            print("\t Unable to view order menu...!")
