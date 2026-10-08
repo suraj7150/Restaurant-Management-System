@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 2,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 3,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 4,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 5,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 6,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 7,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 8,
+        "size": 2,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 9,
+        "size": 4,
+        "status": "Occupied",
+        "booking_start": "2026-10-07 11:35:14",
+        "booking_duration": 8
+    },
+    {
+        "id": 10,
+        "size": 4,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 11,
+        "size": 4,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 12,
+        "size": 4,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 13,
+        "size": 4,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 14,
+        "size": 4,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 15,
+        "size": 6,
+        "status": "Occupied",
+        "booking_start": "2026-10-07 17:39:00",
+        "booking_duration": 7
+    },
+    {
+        "id": 16,
+        "size": 6,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 17,
+        "size": 6,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 18,
+        "size": 6,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 19,
+        "size": 8,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    },
+    {
+        "id": 20,
+        "size": 8,
+        "status": "Available",
+        "booking_start": null,
+        "booking_duration": null
+    }
+]
