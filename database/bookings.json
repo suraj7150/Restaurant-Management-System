@@ -89,7 +89,7 @@
         ],
         "booking_start": "2026-10-07 11:35:14",
         "booking_duration": 8,
-        "status": "Active"
+        "status": "Completed"
     },
     {
         "booking_id": 8,
@@ -115,6 +115,6 @@
         ],
         "booking_start": "2026-10-07 17:39:00",
         "booking_duration": 7,
-        "status": "Active"
+        "status": "Completed"
     }
 ]
