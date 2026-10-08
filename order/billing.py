@@ -182,22 +182,22 @@ class Billing:
             if bill is None:
                 return
 
-            print("\n" + "=" * 50)
+            print("\n" + "‗" * 50)
             print("\t\t      BILL")
-            print("=" * 50)
+            print("‗" * 50)
 
             print(f"\nBill ID       : {bill['bill_id']}")
             print(f"Table ID      : {bill['table_id']}")
             print(f"Order IDs     : {bill['order_ids']}")
             print(f"Bill Time     : {bill['bill_time']}")
 
-            print("\n" + "-" * 50)
+            print("\n" + "—" * 50)
             print("\t\tItems")
-            print("-" * 50)
+            print("—" * 50)
 
             print(f"{'Item ID':<12}{'Quantity':<12}{'Price':<12}{'Amount':<12}")
 
-            print("-" * 50)
+            print("—" * 50)
 
             for item in bill["items"]:
 
@@ -210,18 +210,18 @@ class Billing:
                     f"{amount:<12}"
                 )
 
-            print("-" * 50)
+            print("—" * 50)
 
             print(f"\nSubtotal      : ₹{bill['subtotal']:.2f}")
             print(f"Tax           : ₹{bill['tax']:.2f}")
             print(f"Discount      : ₹{bill['discount']:.2f}")
 
-            print("-" * 50)
+            print("—" * 50)
             logger.info(f"Bill displayed successfully: {bill['bill_id']}")
 
             print(f"Final Amount  : ₹{bill['final_amount']:.2f}")
 
-            print("=" * 50)
+            print("‗" * 50)
         except Exception as error:
             logger.error(f"Unexpected error while viewing bill: {error}")
             print("\tUnable to view bill...!")

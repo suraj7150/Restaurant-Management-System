@@ -555,3 +555,14 @@
  2026-10-07 17:47:25,374 || Restaurant           || WARNING    || order.py                 :64   || Invalid item ID entered: gh
  2026-10-07 17:47:44,290 || Restaurant           || INFO       || order.py                 :110  || User finished adding items
  2026-10-07 17:47:44,293 || Restaurant           || INFO       || order.py                 :143  || Order placed successfully. Order ID: 8, Table ID: 15
+ 2026-10-07 17:53:46,193 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 17:53:48,960 || Restaurant           || INFO       || staff.py                 :96   || Staff selected Billing
+ 2026-10-07 17:53:54,352 || Restaurant           || INFO       || billing.py               :24   || Valid table id entered: 9
+ 2026-10-07 17:53:54,354 || Restaurant           || INFO       || billing.py               :42   || 2 order(s) found for table id: 9
+ 2026-10-07 17:53:54,362 || Restaurant           || INFO       || billing.py               :127  || Bill generated successfully. Bill ID: 3, Table ID: 9
+ 2026-10-07 17:54:04,432 || Restaurant           || INFO       || billing.py               :157  || Valid bill id entered: 3
+ 2026-10-07 17:54:04,463 || Restaurant           || INFO       || billing.py               :220  || Bill displayed successfully: 3
+ 2026-10-07 17:58:21,648 || Restaurant           || INFO       || staff.py                 :54   || Staff login successful
+ 2026-10-07 17:58:27,565 || Restaurant           || INFO       || staff.py                 :96   || Staff selected Billing
+ 2026-10-07 17:58:33,394 || Restaurant           || INFO       || billing.py               :157  || Valid bill id entered: 1
+ 2026-10-07 17:58:33,399 || Restaurant           || INFO       || billing.py               :220  || Bill displayed successfully: 1
